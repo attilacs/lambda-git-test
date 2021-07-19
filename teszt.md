@@ -34,3 +34,12 @@ A git diff paranccsal lehet file-ok változásait összehasonlítani.
 A git log paranccsal lehet megnézni a repo történetét. A kimenetet kapcsolókkal lehet módosítani pl. git log --oneline --graph --all. A grep-pel tudunk szűrni a kimenetbent.
 1. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
 git status
+
+A node-express-app.js módosításának időpontja:
+Fri Nov 8 13:08:59 2019 +0100
+A commit message:
+Change the status endpoint to /health
+    
+    To follow industry standards, the endpoint responsible for the status of
+    the service should live under the /health endpoint and return a bool
+    value denoted by the `health` key
